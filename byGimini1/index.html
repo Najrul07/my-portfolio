@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BCA student and aspiring web developer from Kolkata building responsive and practical web experiences with HTML, CSS and JavaScript.">
+  <meta name="theme-color" content="#0B0B0B">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Najrul Hoque | Web Developer">
+  <meta property="og:description" content="BCA student and aspiring web developer from Kolkata building responsive and practical web experiences.">
+
+  <title>Najrul Hoque | Web Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container container">
+      <a href="#hero" class="nav-logo" aria-label="Najrul Hoque Home">NH<span class="logo-dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light theme">
+          <span class="theme-icon" id="themeIcon">☾</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="badge">BCA Student &amp; Aspiring Web Developer</div>
+          <h1 class="hero-title">Hi, I'm <span class="highlight">Najrul Hoque</span>.</h1>
+          <p class="hero-description">
+            I'm currently building my foundation in web development through HTML, CSS and JavaScript, with a focus on creating practical, responsive and user-friendly websites.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+          <div class="hero-links">
+            <a href="https://github.com/Najrul07" target="_blank" rel="noopener noreferrer" class="social-link">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/najrul-hoque-2ba2b8353" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-card-wrap reveal">
+          <div class="profile-card">
+            <div class="profile-avatar">
+              <!-- Replace with actual image when ready: <img src="assets/images/profile.jpg" alt="Najrul Hoque"> -->
+               <img src="profile.jpg" alt="Najrul Hoque">
+              <!-- <div class="avatar-placeholder">NH</div> -->
+            </div>
+            <div class="profile-info">
+              <span class="status-indicator">
+                <span class="status-dot"></span> Currently Learning
+              </span>
+              <h2 class="profile-name">Najrul Hoque</h2>
+              <p class="profile-sub">Web Development Learner</p>
+              <div class="profile-tech-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Overview</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am a Bachelor of Computer Applications (BCA) student at Swami Vivekananda University, Kolkata. My primary technical focus is core web development standards, responsive design principles, and modern layout techniques.
+            </p>
+            <p>
+              Rather than jumping straight to high-level frameworks, I am focused on mastering vanilla HTML5, CSS3, and JavaScript fundamentals. I take a hands-on approach by building practical projects, refining code quality, and working towards full-stack proficiency.
+            </p>
+          </div>
+
+          <div class="about-details reveal">
+            <div class="info-card">
+              <div class="info-item">
+                <span class="info-label">Education</span>
+                <span class="info-value">BCA — Swami Vivekananda University</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location</span>
+                <span class="info-value">Kolkata, West Bengal, India</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Primary Focus</span>
+                <span class="info-value">Front-End Fundamentals</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Status</span>
+                <span class="info-value">Seeking Internships &amp; Entry Opportunities</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Technical Toolkit</span>
+          <h2 class="section-title">Current Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon">HTML5</div>
+            <h3 class="skill-name">HTML5</h3>
+            <p class="skill-desc">Semantic HTML structure, accessible markup, forms validation, clean document outline, and SEO basics.</p>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon">CSS3</div>
+            <h3 class="skill-name">CSS3</h3>
+            <p class="skill-desc">Responsive layouts with Flexbox and CSS Grid, custom properties (CSS variables), keyframe animations, and media queries.</p>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon">JS</div>
+            <h3 class="skill-name">JavaScript</h3>
+            <p class="skill-desc">Actively building core proficiency in DOM manipulation, events handling, async concepts, ES6 syntax, and local state handling.</p>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon">GIT</div>
+            <h3 class="skill-name">Git &amp; GitHub</h3>
+            <p class="skill-desc">Version control fundamentals, terminal commands, tracking changes, pushing repositories, and publishing via GitHub Pages.</p>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon">RWD</div>
+            <h3 class="skill-name">Responsive Web Design</h3>
+            <p class="skill-desc">Building websites that adapt to any screen resolution, from mobile devices (320px) up to large desktop monitors.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRENTLY LEARNING SECTION -->
+    <section class="learning-path section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Roadmap</span>
+          <h2 class="section-title">Currently Learning</h2>
+        </div>
+
+        <div class="path-flow reveal">
+          <div class="path-step completed">
+            <span class="step-num">01</span>
+            <span class="step-name">HTML5</span>
+            <span class="step-status">Fundamental</span>
+          </div>
+          <div class="path-arrow">→</div>
+
+          <div class="path-step completed">
+            <span class="step-num">02</span>
+            <span class="step-name">CSS3</span>
+            <span class="step-status">Fundamental</span>
+          </div>
+          <div class="path-arrow">→</div>
+
+          <div class="path-step active">
+            <span class="step-num">03</span>
+            <span class="step-name">JavaScript</span>
+            <span class="step-status">In Progress</span>
+          </div>
+          <div class="path-arrow">→</div>
+
+          <div class="path-step active">
+            <span class="step-num">04</span>
+            <span class="step-name">Git &amp; GitHub</span>
+            <span class="step-status">Fundamental</span>
+          </div>
+          <div class="path-arrow">→</div>
+
+          <div class="path-step active">
+            <span class="step-num">05</span>
+            <span class="step-name">Practical Projects</span>
+            <span class="step-status">In Progress</span>
+          </div>
+          <div class="path-arrow">→</div>
+
+          <div class="path-step future">
+            <span class="step-num">06</span>
+            <span class="step-name">React / Backend</span>
+            <span class="step-status">Future Learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Portfolio Work</span>
+          <h2 class="section-title">Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Planned Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-header">
+              <span class="badge badge-progress">In Progress</span>
+              <span class="project-category">Web Application</span>
+            </div>
+            <h3 class="project-title">LocalSpot</h3>
+            <p class="project-subtitle">Local Place Discovery Website</p>
+            <p class="project-desc">
+              A responsive web application focused on helping users discover useful local places such as cafés, libraries, clinics, gyms, and shops through instant search and category-based filtering.
+            </p>
+
+            <div class="project-features">
+              <h4>Planned Features:</h4>
+              <ul>
+                <li>Category filtering and real-time place search</li>
+                <li>Interactive place cards with detailed info</li>
+                <li>Local storage for bookmarking favorite spots</li>
+                <li>Full screen-size mobile responsiveness</li>
+              </ul>
+            </div>
+
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>LocalStorage</span>
+            </div>
+
+            <div class="project-footer">
+              <span class="btn btn-disabled">Coming Soon</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects-notice reveal">
+          <p>More projects will be added here as I build, complete, and deploy them.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Academic History</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023 – 2027</span>
+              <h3 class="timeline-title">Bachelor of Computer Applications (BCA)</h3>
+              <p class="timeline-institution">Swami Vivekananda University, Kolkata</p>
+              <p class="timeline-detail">Focusing on computer science fundamentals, programming logic, database concepts, and modern software development practices.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023</span>
+              <h3 class="timeline-title">Class XII (Higher Secondary)</h3>
+              <p class="timeline-institution">Mahipal High School — West Bengal Board</p>
+              <p class="timeline-detail">Completed higher secondary education with a score of <strong>80%</strong>.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2021</span>
+              <h3 class="timeline-title">Class X (Secondary)</h3>
+              <p class="timeline-institution">Kachra High School — West Bengal Board</p>
+              <p class="timeline-detail">Completed secondary school education with a score of <strong>71%</strong>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEARNING JOURNEY SECTION -->
+    <section class="journey section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Growth Strategy</span>
+          <h2 class="section-title">My Learning Journey</h2>
+        </div>
+
+        <div class="journey-grid">
+          <div class="journey-card reveal">
+            <div class="journey-step">01</div>
+            <h3 class="journey-title">Learn</h3>
+            <p class="journey-desc">Building strong core fundamentals in HTML5, CSS3 layout engines (Flexbox &amp; Grid), and modern JavaScript standards.</p>
+          </div>
+
+          <div class="journey-card reveal">
+            <div class="journey-step">02</div>
+            <h3 class="journey-title">Build</h3>
+            <p class="journey-desc">Constructing responsive websites, interactive UI components, and real-world frontend applications with semantic code.</p>
+          </div>
+
+          <div class="journey-card reveal">
+            <div class="journey-step">03</div>
+            <h3 class="journey-title">Grow</h3>
+            <p class="journey-desc">Future Goal: Expanding skills toward modern JavaScript frameworks (React), Node.js backend integration, and full-stack development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p class="contact-text">
+              I am currently looking for web development internships, junior entry-level roles, and project collaborations. Feel free to reach out directly via email or connect on social platforms.
+            </p>
+
+            <div class="contact-methods">
+              <a href="mailto:the.najrul07@gmail.com" class="contact-method-card">
+                <span class="method-label">Email</span>
+                <span class="method-value">the.najrul07@gmail.com</span>
+              </a>
+
+              <a href="https://github.com/Najrul07" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                <span class="method-label">GitHub</span>
+                <span class="method-value">github.com/Najrul07 ↗</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/najrul-hoque-2ba2b8353" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                <span class="method-label">LinkedIn</span>
+                <span class="method-value">linkedin.com/in/najrul-hoque-2ba2b8353 ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <span class="form-error" id="nameError">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                <span class="form-error" id="emailError">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                <span class="form-error" id="messageError">Please enter a message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+              <div class="form-status" id="formStatus"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="footer-logo">NH<span class="logo-dot">.</span></a>
+        <p class="footer-tagline">Najrul Hoque | BCA Student &amp; Aspiring Web Developer</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/Najrul07" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/najrul-hoque-2ba2b8353" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:the.najrul07@gmail.com">Email</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Najrul Hoque. All rights reserved.</p>
+        <p class="footer-tech">Built with HTML, CSS &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
